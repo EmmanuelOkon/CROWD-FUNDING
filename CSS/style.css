@@ -6,7 +6,7 @@
     font-size: 16px;
 }
 
-/* NAVIGATION */
+/* NAVIGATION BEGINS */
 nav {
     margin: 0;
     overflow: hidden;
@@ -48,3 +48,6 @@ nav ul li {
     display: inline-flex;
     padding-left: 30px;
 }
+
+/* NAVIGATION ENDS */
+
