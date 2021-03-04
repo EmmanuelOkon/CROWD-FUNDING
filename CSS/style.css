@@ -22,9 +22,10 @@ nav ul {
 }
 
 .navbar {
-    height: 100vh;
+    height: 60vh;
     background: url(../images/image-hero-desktop.jpg) no-repeat;
     background-size: auto;
+    padding-bottom: 0px;
 }
 
 .navigation {
@@ -51,3 +52,61 @@ nav ul li {
 
 /* NAVIGATION ENDS */
 
+/* BODY BEGINS */
+
+/* CONTAINER CREATION BEGINS */
+
+.container {
+    background-color: grey;
+}
+
+.card-wrapper {
+    margin: 0px 300px;
+    width: 50%;
+}
+
+.cards {
+    background-color: #FFF;
+}
+
+/* FIRST CARD BEGINS */
+
+.first-card {
+    border-radius: 10px;
+    height: 250px;
+    position: relative;
+    top: -100px;
+    z-index: 1;
+}
+
+.head-text {
+    text-align: center;
+}
+
+.head-text {
+    position: relative;
+    top: -30px;
+}
+
+/* background-color: hsl(176, 72%, 28%); */
+
+.head-buttons > .btn {
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 0px 20px;
+}
+
+.head-buttons > button > a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: hsl(176, 72%, 28%);
+}
