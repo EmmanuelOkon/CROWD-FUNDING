@@ -158,18 +158,43 @@ nav ul li {
 
 .third-card {
     margin: auto;
-    padding: 30px 30px;
+}
+
+.sc {
+    margin-bottom: 20px;
+}
+
+.scb {
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+
+.third-card h2 {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .third-card > p {
+    padding: 0px 30px;
     font-size: 16px;
     /* to style paragraphs */
+}
+
+.small-card-wrapper {
+    padding: 30px 30px;
 }
 
 .small-cards {
     border: 1px solid grey;
     border-radius: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding-bottom: 20px;
 }
 
@@ -183,8 +208,36 @@ nav ul li {
     padding-left: 30px;
 }
 
-.small-card-head > p {
+.small-card-head > a {
     padding-right: 30px;
     color: hsl(176, 50%, 47%);
     cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    bottom: 10;
+}
+
+.small-cards p {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.small-card-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-card-foot > p:not(.left) {
+    padding-left: 30px;
+    color: #000;
+    font-weight: 900;
+}
+
+.small-card-foot button {
+    margin-right: 30px;
+}
+
+.small-card-foot > button > a {
+    text-decoration: none;
+    color: #FFF;
 }
