@@ -24,7 +24,7 @@ nav ul {
 .navbar {
     height: 60vh;
     background: url(../images/image-hero-desktop.jpg) no-repeat;
-    background-size: auto;
+    background-size: cover;
     padding-bottom: 0px;
 }
 
@@ -61,22 +61,25 @@ nav ul li {
 }
 
 .card-wrapper {
-    margin: 0px 300px;
+    margin: auto;
     width: 50%;
 }
 
 .cards {
+    /* width: ; */
     background-color: #FFF;
+    border-radius: 10px;
+    margin: auto;
 }
 
 /* FIRST CARD BEGINS */
 
 .first-card {
-    border-radius: 10px;
     height: 250px;
     position: relative;
     top: -100px;
     z-index: 1;
+    margin-bottom: 30px;
 }
 
 .head-text {
@@ -88,17 +91,21 @@ nav ul li {
     top: -30px;
 }
 
-/* background-color: hsl(176, 72%, 28%); */
+.head-buttons {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
 
 .head-buttons > .btn {
     background-color: hsl(176, 50%, 47%);
     border: none;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 20px 32px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50px;
-    margin: 0px 20px;
+    margin: 0px 60px;
 }
 
 .head-buttons > button > a {
@@ -109,4 +116,55 @@ nav ul li {
 
 .btn:hover {
     background-color: hsl(176, 72%, 28%);
+}
+
+.bookmark {
+    position: relative;    
+}
+
+.bookmark-icon {    
+    size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* FIRST CARD ENDS */
+
+/* SECOND CARD BEGINS */
+
+.second-card {
+    position: relative;
+    top: -50px;
+    padding: 5px 50px;
+    display: flex;
+    text-align: center;
+}
+
+/* SECOND CARD ENDS */
+
+
+/* THIRD CARD BEGINS */
+
+.third-card {
+    margin: auto;
+    padding: 30px 30px;
+}
+
+.third-card > p {
+    font-size: 16px;
+    /* to style paragraphs */
+}
+
+.small-cards {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.small-card-head {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
 }
