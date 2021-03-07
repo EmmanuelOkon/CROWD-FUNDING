@@ -134,17 +134,20 @@ nav ul li {
     top: 0;
     width: 100%;
     height: 100%;
-    /* overflow: auto; */
+    overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-card-wrapper-one {
+    border-radius: 15px;
     background-color: #fefefe;
     margin: auto;
     padding: 30px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
+    /* overflow-y: scroll; */
+    height: 100%;
 }
 
 .close {
@@ -154,11 +157,24 @@ nav ul li {
     font-weight: bold;  
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.projectOption {
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.projectOption:hover, .projectOption:focus {
+    border: 3px solid hsl(176, 72%, 28%);
+}
+
+.modal-card-head {
+    display: flex;
 }
 
 /* MODAL ENDS */
