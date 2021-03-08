@@ -57,7 +57,8 @@ nav ul li {
 /* CONTAINER CREATION BEGINS */
 
 .container {
-    background-color: grey;
+    background-color: #F5F5F5;
+    padding-bottom: 5em;
 }
 
 .card-wrapper {
@@ -70,6 +71,7 @@ nav ul li {
     background-color: #FFF;
     border-radius: 10px;
     margin: auto;
+    border: 2px solid #F0FFF0;
 }
 
 /* FIRST CARD BEGINS */
@@ -174,14 +176,17 @@ nav ul li {
 }
 
 .modal-card-head {
-    display: flex;
+    display: inline-flex;
+    /* position: relative; */
 }
 
 /* MODAL ENDS */
 
 .bookmark {
     border: none;
-    padding: 20px 32px;
+    /* padding: 20px 32px; */
+    padding-left: 4.5em;
+    padding-right: 2em;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50px;
@@ -189,7 +194,7 @@ nav ul li {
     position: relative;    
 }
 
-.bookmark > a {
+.bookmark > a > p {
     color: hsl(0, 0%, 48%);
 }
 
